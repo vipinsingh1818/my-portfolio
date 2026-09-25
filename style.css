@@ -264,14 +264,16 @@ nav a:hover {
     color: #777;
     font-size: 12px;
 }
-
-.skills-grid,
-.projects-grid {
+.skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
 }
 
+.skill-card {
+    padding: 22px 15px;
+    min-height: 170px;
+}
 .skill-card,
 .project-card {
     background: #0e0e0e;
